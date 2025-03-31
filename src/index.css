@@ -290,7 +290,8 @@ tr.selected-row td {
   font-weight: bold;
   color: #1565c0;
 }
-* Assicurati che le intestazioni abbiano uno z-index più alto per sovrapporsi */
+/* Assicurati che le intestazioni abbiano uno z-index più alto per sovrapporsi */
+
 thead .sticky-header-col-1,
 thead .sticky-header-col-2,
 thead .sticky-header-col-3 {
