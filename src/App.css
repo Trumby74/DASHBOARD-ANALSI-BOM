@@ -1,0 +1,57 @@
+.dashboard-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  margin: 0 0 0 12px;
+}
+
+.dashboard-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.bom-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+
+.bom-table th,
+.bom-table td {
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+}
+
+.bom-table th {
+  background-color: #f2f2f2;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
