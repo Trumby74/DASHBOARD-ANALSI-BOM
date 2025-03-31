@@ -1,3 +1,4 @@
-git add vercel.json
-git commit -m "Fix Vercel build with legacy peer deps"
-git push
+{
+  "buildCommand": "npm install --legacy-peer-deps && npm run build"
+}
+
